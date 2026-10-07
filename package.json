@@ -1,0 +1,10 @@
+{
+  "name": "cradle",
+  "private": true,
+  "description": "Cradle — grow a civilization. Static site; no dependencies.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "serve": "python3 -m http.server 8000"
+  }
+}
